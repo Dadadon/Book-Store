@@ -23,7 +23,10 @@
       "no-trailing-spaces": "off",
       "linebreak-style": "off",
       "quotes": "off",
-      "max-len": "off"
+      "max-len": "off",
+      "comma-dangle": "off",
+      "object-curly-newline": "off",
+      "arrow-parens": "off"
     },
     "ignorePatterns": [
       "dist/",
