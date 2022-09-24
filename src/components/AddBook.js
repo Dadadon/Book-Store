@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const AddBook = () => (
   <>
@@ -9,13 +9,14 @@ const AddBook = () => (
         name="title"
         required
         placeholder="Book Name"
-      ></input>
+      />
       <input
         id="author"
         type="text"
         name="author"
         required
-        placeholder="Author"></input>
+        placeholder="Author"
+      />
       <button type="submit">Add Book</button>
     </form>
   </>
